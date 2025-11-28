@@ -1,0 +1,35 @@
+# Grafana Dashboard Repository .gitignore
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# Archive directory (if you want to ignore it)
+# archive/
+
+# Environment files
+.env
+.env.local
+.env*.local
+
+# Test files
+test-*.json
